@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+}
+.main{
+    margin: 5px 5px 5px 5px;
+
+}
+p{
+    font-size: xx-large;
+}
+
+
+.header{
+    background-color: rgb(14, 134, 136);
+    color: blue;
+    text-align: center;
+    border: 1px solid black;
+}
+.menu1{
+    background-color: rgba(170, 220, 4, 0.853);
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.menu2{
+    float: left;
+    width: 20%;
+    height: 450px;
+        background-color: rgba(249, 13, 13, 0.777);
+    color: blue;
+    text-shadow: 4px 4px 4px 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+.content{
+    margin-top: 10px;
+    border: 1px solid black;
+    float:right;
+    width: 77%;
+    height: 450px;
+  margin-left: 40px;
+    background-color: rgba(165, 42, 42, 0.532);
+    color: blue;
+    text-align: center;
+}
+.footer{
+    clear: both;
+    background-color: rgba(16, 239, 72, 0.532);
+    color: blue;
+    text-align: center;
+    border: 1px solid black;
+margin-top: 10px;    
+
+
+}
+.header:hover,.menu1:hover,.menu2:hover,.content:hover,.footer:hover{
+    color: black;
+    background-color: blueviolet;
+}
